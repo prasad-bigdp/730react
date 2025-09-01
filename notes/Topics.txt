@@ -1,0 +1,20 @@
+ReactJS - introduction
+    -- JSX
+    -- Components
+    -- Nested Components
+PROPS
+    -- parent to child
+    -- child to parent
+    -- prop drilling
+State
+    -- class Components vs Functional Components
+    -- useState , virtual DOM
+useEffect
+Context API (useContext)
+Hooks
+Forms (with validations)
+Routing
+Portfolio Project
+Main Project
+
+Netlify , Github  , Bootstrap, Tailwind,

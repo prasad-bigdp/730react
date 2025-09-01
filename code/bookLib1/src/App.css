@@ -1,0 +1,21 @@
+h1,.title{
+  text-align: center;
+}
+h1{
+  font-size: 48px;
+  text-decoration: 2px wavy black underline;
+}
+.books{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.book{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+.book>img{
+  height: 300px;
+}

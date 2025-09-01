@@ -1,0 +1,1 @@
+Props: props is a shortcut for properties. Usually we pass properties from parent component to child component. we declare them as attributes and receives them in child component as a 'props' object

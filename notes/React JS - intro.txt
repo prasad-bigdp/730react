@@ -1,0 +1,85 @@
+React JS:    
+          React JS is a Javascript Library which is used to build user Interfaces. React mostly builds single page Applications and progressive web apps. 
+A Javascript Library is nothing but a Pre written code used for specific purpose.
+The key difference between Library and Framework is A Library just provides some code for a purpose but frameworks provide complete Architecture of code.
+A Single Page Application Loads a specific section of a web page without loading the complete Page.
+A Progressive Web APP gives user native app like experience in web apps.
+
+History :
+----------
+       In 2010 , meta developed the react for internal purposes and to the public in 2012 as open source.
+
+React Architecture:
+---------------------------
+      React Divides the whole page into reusable components and uses virtual DOM to load them . Basic Key Factors in React are:
+      i. components:   React core concept is component.components are the building blocks of react.  it is a piece of code that are reusable UI.
+     ii. Virtual DOM :  React uses a virtual DOM ( A lightweight in memory representation of Actual DOM) to optimise rendering and improves performance.
+    iii. Data Binding : React follows one way Data Binding that ensures components receives data from parent components
+
+
+How to do First React APP ?
+        1. For React Code, we need a code editor to write react code.(VS Code)
+        2. We need a package Manager to download, install, unstall,update packages (libraries) . SO, Download and Install Node Package Manager(npm)
+             goto nodejs.org/download and download based on OS
+             click next until finish
+             goto smd and verify "node -v" and "npm -v"
+         3. open vscode, open folder,create folders code,notes,projects
+         4. open terminal--->new terminal ---> click arrow and select command prompt
+         5. Enter "cd code" . Type "npm create vite@latest appName"
+         6. select  'react'  and 'JS' (if asked, ok -- y , package name should not contain uppercase)
+         7. cd appName .
+             npm install
+             npm run dev
+     it will run the APP in 5173 port
+    
+        8. Goto index.html and update title and favicon. Goto App.Jsx and update code as 
+            HELLO WORLD 
+   
+Folder Structure: 
+    vite.config.js ---  it is the rule set file for vite
+    eslint.config.js --- it is the rule set file for eslint(used for Errors)
+    readme.md  --- instruction file
+    package.json --- it contains meta data of Application (filename,version,author,scripts,dependencies etc..,)
+    package-lock.json --- it contains meta data of package.json
+    .gitignore --- it contains files/folders that are ignored by Git
+    node modules --- it ocntains all the packages that are needed (installed based on package.json)
+    public --- it contains public files which can be accessed anywhere in application
+    src --- it contains main 'source'
+    index.html ---- it is the main HTML file that loads into web    
+    main.jsx --- it is used to access div with id 'root' from index.html and render 'APP' component in it.
+    APP.jsx --- it contains the basic jsx code for the screen
+
+JSX : It is the extension of Javascript. JSX allows to write HTML within Javascript. Basic Rules For JSX are
+    i. JSX Expressions must return only one parent element
+    ii. In JSX, always names follows cameCase(including attributes such as className,htmlFor)
+    iii. All tags must be properly closing(including self closing tags eg : <img />)
+    iv. Even Style properties follows CamelCase
+    v. When Rendering lists,must use 'key' to differentiate each list item.
+
+Conponent : component is the reusable part of User Interface.Every Component Follows JSX structure and the whole screen is divided in a logical Reusable Manner
+
+We can keep one component inside another component called Nested Components
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
