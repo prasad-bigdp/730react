@@ -1,1 +1,19 @@
 Props: props is a shortcut for properties. Usually we pass properties from parent component to child component. we declare them as attributes and receives them in child component as a 'props' object
+   syntax:
+   <component propName='value' propName2='value2' />
+
+   function component(props){
+    return (
+        <>
+        <h1>{props.propName}</h1>
+        <h2>{props.propName2}</h2>
+        </>
+    )
+   }
+    
+   features:
+     i. All Props are immutable
+     ii. props can pass strings, objects,number,boolean,arrays,functions also
+     iii. we can even pass HTML UI using props 'children'.
+     iv. props always can be passed from parent to child.In Large applications, when multi level components involved, To pass a value from Higher level to lower level , it needs to travel all levels creating a probelm called "Prop Drilling"
+     
