@@ -274,9 +274,10 @@ function App ()
 			},
 		},
   ]
-  function add ()
+	
+  function add (x)
   {
-    alert("The Product is added")
+    alert(x+" is added")
   }
   return (
     <>

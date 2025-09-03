@@ -1,0 +1,6 @@
+State:State in react refers to the way of storing and managing the data that changes over time in a component. Simply
+   "state is an object that stores the data and can change over time"
+
+** when state value changes the component re-renders to reflex that change in the component.
+
+state can be used in functional components using 'useState' hook. without the hook , functional components are stateless components

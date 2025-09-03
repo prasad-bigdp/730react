@@ -1,0 +1,7 @@
+1. what is React? why do we need it?
+2. what is the difference betwee react and angular?
+3. what is a component? How to use component in React?
+4. what is JSX and what are its rules?
+5. what is props and props children?
+6. why do we need key for list of items?
+7. How to send data from child component to parent component?
