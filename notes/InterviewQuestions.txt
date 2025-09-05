@@ -5,3 +5,5 @@
 5. what is props and props children?
 6. why do we need key for list of items?
 7. How to send data from child component to parent component?
+8. what is virtual DOM? How it works?
+9. what is state and useState?
