@@ -4,3 +4,29 @@ State:State in react refers to the way of storing and managing the data that cha
 ** when state value changes the component re-renders to reflex that change in the component.
 
 state can be used in functional components using 'useState' hook. without the hook , functional components are stateless components
+
+syntax :  const [value,setValue] = useState(initialValue)
+value is the actual value that can be changed
+setValue is an asynchrnous function(a function that some time to execute) to update the state of value
+
+useState is the default hook provided by React. A hook is nothing but a default function.
+eg: 
+import {useState} from 'react'
+function Counter(){
+   const [count,setCount]=useState(0)
+   return (
+      <>
+         <p>{count}</p>
+         <button onClick={()=>setCount(count+1)}> + </button>
+      </>
+   )
+}
+export default Counter;
+
+Major use cases are toggles, form inputs, counters etc.., 
+
+
+useEffect : useEffect is also hook provided by react by default which is used to perform asynchrnous operations such as fetching the data
+'fetch' is the default method provided by Browser to get/post the data to an endpoint(server)
+
+
