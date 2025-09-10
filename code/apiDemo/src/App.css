@@ -1,0 +1,15 @@
+.beers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+.beer{
+  padding: 20px;
+  box-shadow: 5px 10px 20px gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

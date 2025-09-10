@@ -30,3 +30,10 @@ useEffect : useEffect is also hook provided by react by default which is used to
 'fetch' is the default method provided by Browser to get/post the data to an endpoint(server)
 
 
+
+
+
+
+
+
+
